@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <style>
+        div.dark {
+            background-color: #555555;
+            height: 130px;
+            margin-bottom: 10px;
+            width: 600px;
+        }
+
+        div.light {
+            background-color: #CCCCCC;
+            display: inline-block;
+        }
+
+        div.top {
+            width: 183px;
+            height: 110px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        div.middleA {
+            height: 100px;
+            width: 140px;
+            margin-top: 15px;
+            margin-left: 5px;
+            vertical-align: top;
+        }
+
+        div.middleB {
+            height: 75px;
+            width: 140px;
+            margin-top: 15px;
+            margin-left: 5px;
+            vertical-align: top;
+        }
+
+        div#bottomA {
+            width: 290px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        div#bottomB {
+            width: 290px;
+            height: 100px;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="dark">
+        <div class="light top"></div>
+        <div class="light top"></div>
+        <div class="light top"></div>
+    </div>
+
+    <div class="dark">
+        <div class="light middleA"></div>
+        <div class="light middleB"></div>
+        <div class="light middleA"></div>
+        <div class="light middleB"></div>
+    </div>
+
+    <div class="dark">
+        <div class="light" id="bottomA"></div>
+        <div class="light" id="bottomB"></div>
+    </div>  
+
+</body>
+
+</html>
